@@ -1,5 +1,5 @@
 import './App.css';
-import SketchComp from './components/sketch/sketch'
+import SketchComp from './components/sketches/sketch'
 
 function App() {
   return (

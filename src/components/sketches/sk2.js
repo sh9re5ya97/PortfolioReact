@@ -13,7 +13,7 @@ import { ReactP5Wrapper } from "@p5-wrapper/react";
     }
     
     p5.draw=function() {
-      if(count>255)dec=true;
+      if(count>230)dec=true;
       if(dec){
         count--;
         if(count==0)dec=false;
@@ -31,7 +31,7 @@ import { ReactP5Wrapper } from "@p5-wrapper/react";
     
   }
 
-  export default function SketchComp(){
+  export default function Sk2(){
     return (
       <ReactP5Wrapper sketch={sketch}/>
     );
