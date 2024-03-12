@@ -1,10 +1,10 @@
 import { ReactP5Wrapper } from "@p5-wrapper/react";
 
  let x=200,
- y=200,
- xSpeed,
- ySpeed,
- t;
+ y=200
+//  xSpeed,
+//  ySpeed,
+//  t;
   function sketch(p5){
     p5.setup=function() {
       // Your setup code goes here

@@ -1,5 +1,5 @@
 import './App.css';
-import { Outlet, Link } from "react-router-dom";
+// import { Outlet, Link } from "react-router-dom";
 import SketchComp from './components/sketches/sketch'
 import Sk2Comp from './components/sketches/sk2'
 
