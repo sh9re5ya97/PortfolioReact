@@ -2,6 +2,8 @@ import './App.css';
 // import { Outlet, Link } from "react-router-dom";
 import SketchComp from './components/sketches/sketch'
 import Sk2Comp from './components/sketches/sk2'
+import PiDay from './components/sketches/piDay'
+import PiDay2 from './components/sketches/piDay2'
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
         </ul>
         </nav>
         <div className='p-8'>
+        <div><PiDay /></div>
+        {/* <div><PiDay2 /></div>
         <div><SketchComp /></div>
-        <div><Sk2Comp /></div>
+        <div><Sk2Comp /></div> */}
         </div>
     
     </div>
